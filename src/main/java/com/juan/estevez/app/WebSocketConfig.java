@@ -6,6 +6,11 @@ import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBr
 import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
 
+/**
+ * Clase de configuración para los broker de mensajería de tipo Socket
+ * 
+ * @author Juan Carlos Estévez Vargas
+ */
 @Configuration
 @EnableWebSocketMessageBroker // Habilita el servidor websocket de spring
 public class WebSocketConfig implements WebSocketMessageBrokerConfigurer{
